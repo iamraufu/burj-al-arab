@@ -4,6 +4,7 @@ import {UserContext} from '../../App'
 
 const Book = () => {
     const {bedType} = useParams();
+    // eslint-disable-next-line
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <div style={{textAlign: 'center'}}>
