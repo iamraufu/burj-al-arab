@@ -8,6 +8,7 @@ import { useHistory, useLocation } from 'react-router';
 !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();
 
 function Login() {
+    // eslint-disable-next-line
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
 
     const history = useHistory();
